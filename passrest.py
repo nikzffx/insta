@@ -16,7 +16,7 @@ print ("\033[1;32m Pass Reset Tool By : NikzPy \n JOIN TG - https://t.me/nikzffx
 
 class NIKZ():
     def __init__(self):
-        self.target = input(G+"\n\n [✦] 𝗘𝗠𝗔𝗜𝗟 / 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘 :        ")
+        self.target = input(B+"\n\n [✦] 𝗘𝗠𝗔𝗜𝗟 / 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘 :        ")
         if self.target[0] == "@":
             print("[♥︎] 𝗘𝗡𝗧𝗘𝗥 𝗧𝗛𝗘 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘 𝗪𝗜𝗧𝗛𝗢𝗨𝗧 '@' ", end="")
             input()
