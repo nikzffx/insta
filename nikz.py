@@ -14,6 +14,11 @@ def main_menu():
     choice = input(" • Enter your choice (1-6): ")
   scripts = {
         "1": "https://raw.githubusercontent.com/nikzffx/insta/refs/heads/main/meta.py",
+        "2": "https://raw.githubusercontent.com/k3s63/gmail/refs/heads/main/gr.py",
+        "3": "https://raw.githubusercontent.com/k3s63/gmail/refs/heads/main/g1.py",
+        "4": "https://raw.githubusercontent.com/k3s63/gmail/refs/heads/main/aolv2.py",
+        "5": "https://raw.githubusercontent.com/k3s63/gmail/refs/heads/main/aol%2Bgm.py",
+        "6": "https://raw.githubusercontent.com/k3s63/gmail/refs/heads/main/reset.py",
     }
 
 if choice in scripts:
