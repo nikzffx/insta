@@ -8,7 +8,6 @@ from cfonts import render
 import os,sys,time,pyfiglet,py_compile
 
 R = "\033[1;31m"
-G = "\033[1;32m"
 B = "\033[0;94m"
 Y = "\033[1;33m" 
 NIKZ = render('{RESET}', colors=['yellow', 'cyan'], align='center')
