@@ -13,11 +13,11 @@ print(f"""\x1b[38;5;117m 1\x1b[38;5;231m - Gmail Specific Year + Meta Hunter | �
 # Dictionary of script URLs
 scripts = {
     "1": "https://raw.githubusercontent.com/nikzffx/insta/refs/heads/main/meta.py",
-    "2": "https://raw.githubusercontent.com/k3s63/gmail/refs/heads/main/gr.py",
-    "3": "https://raw.githubusercontent.com/k3s63/gmail/refs/heads/main/g1.py",
-    "4": "https://raw.githubusercontent.com/k3s63/gmail/refs/heads/main/aolv2.py",
-    "5": "https://raw.githubusercontent.com/k3s63/gmail/refs/heads/main/aol%2Bgm.py",
-    "6": "https://raw.githubusercontent.com/k3s63/gmail/refs/heads/main/reset.py",
+    "2": "https://raw.githubusercontent.com/nikzffx/insta/refs/heads/main/passrest.py",
+    "3": "",
+    "4": "",
+    "5": "",
+    "6": "",
 }
 
 def execute_script(url):
@@ -32,7 +32,7 @@ def execute_script(url):
 def main_menu():
     """Display menu and handle user input."""
     print("▩" * 60)
-    choice = input(" • Enter your choice (1-6): ")
+    choice = input(" • Enter your choice (1-2): ")
 
     if choice in scripts:
         execute_script(scripts[choice])
