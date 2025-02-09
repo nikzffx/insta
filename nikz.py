@@ -13,7 +13,7 @@ def main_menu():
     print("▩" * 60)
     choice = input(" • Enter your choice (1-6): ")
   scripts = {
-      "1": "https://raw.githubusercontent.com/nikzffx/meta/refs/heads/main/gs.py",
+      "1": "https://raw.githubusercontent.com/nikzffx/meta/refs/heads/main/meta.py",
   }
 
 if choice in scripts:
