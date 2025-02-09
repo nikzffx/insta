@@ -13,8 +13,8 @@ def main_menu():
     print("▩" * 60)
     choice = input(" • Enter your choice (1-6): ")
   scripts = {
-      "1": "https://raw.githubusercontent.com/nikzffx/meta/refs/heads/main/meta.py",
-  }
+        "1": "https://raw.githubusercontent.com/nikzffx/insta/refs/heads/main/meta.py",
+    }
 
 if choice in scripts:
         execute_script(scripts[choice])
@@ -30,4 +30,4 @@ def execute_script(url):
 
 if __name__ == "__main__":
     main_menu()
-    #𝐍𝐈𝐊𝐙 ~ NikzPy
+    # 𝐍𝐈𝐊𝐙 ~ NikzPy
