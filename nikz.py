@@ -35,7 +35,7 @@ def execute_script(url):
 def main_menu():
     """Display menu and handle user input."""
     print("▩" * 60)
-    choice = input(" • Enter your choice (1-3): ")
+    choice = input(" • Enter your choice (1-4): ")
 
     if choice in scripts:
         execute_script(scripts[choice])
