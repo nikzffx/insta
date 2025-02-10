@@ -6,7 +6,7 @@ NIKZ = render('{NiKZ}', colors=['yellow', 'cyan'], align='center')
 print(NIKZ)
 print("▩" * 60)
 
-print(f"""\x1b[38;5;117m 1\x1b[38;5;231m - Gmail Specific Year + Meta Hunter | ✅
+print(f"""\x1b[38;5;117m 1\x1b[38;5;231m - Gmail Specific Year + Meta Hunter | \x1b[1;32m Active ✅
 \x1b[38;5;117m 2\x1b[38;5;231m - Pass reset Tool | \x1b[1;32m Active ✅
 """)
 
