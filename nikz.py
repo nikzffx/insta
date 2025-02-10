@@ -17,7 +17,7 @@ print(f"""\x1b[38;5;117m 1\x1b[38;5;231m - Gmail Specific Year + Meta Hunter | \
 scripts = {
     "1": "https://raw.githubusercontent.com/nikzffx/insta/refs/heads/main/meta.py",
     "2": "https://raw.githubusercontent.com/nikzffx/insta/refs/heads/main/reportingtool.py",
-    "3": "https://raw.githubusercontent.com/nikzffx/insta/refs/heads/main/5lusername.py",
+    "3": "https://raw.githubusercontent.com/nikzffx/insta/refs/heads/main/5Lusername.py",
     "4": "https://raw.githubusercontent.com/nikzffx/insta/refs/heads/main/passrest.py",
     "5": "",
     "6": "",
