@@ -2,10 +2,12 @@ import os
 import requests
 from cfonts import render
 
+
+print("⫘" * 60)
 # Rendered text with colors
-NIKZ = render('{NiKZ}', colors=['yellow', 'cyan'], align='center')
+NIKZ = render('{NiKZ}', colors=['blue', 'green'], align='center')
 print(NIKZ)
-print("▩" * 60)
+print("⫘" * 60)
 
 print(f"""\x1b[38;5;117m 1\x1b[38;5;231m - Gmail Specific Year + Meta Hunter | \x1b[1;32m Active ✅
 \x1b[38;5;117m 2\x1b[38;5;231m - Auto Reporting Tool | \x1b[1;91m UnActive ⛔
@@ -34,8 +36,10 @@ def execute_script(url):
 
 def main_menu():
     """Display menu and handle user input."""
-    print("▩" * 60)
+    print("⫘" * 60)
     choice = input(" • Enter your choice (1-4): ")
+    print("⫘" * 60)
+    
 
     if choice in scripts:
         execute_script(scripts[choice])
